@@ -1,0 +1,24 @@
+{
+  "name": "reason-nextjs",
+  "reason": { "react-jsx": 3 },
+  "bsc-flags": ["-bs-super-errors"],
+  "sources": [
+    {
+      "dir": "project",
+      "subdirs": true
+    }
+  ],
+  "package-specs": [
+    {
+      "module": "es6",
+      "in-source": true
+    }
+  ],
+  "suffix": ".js",
+  "namespace": true,
+  "bs-dependencies": [
+    "reason-react"
+  ],
+  "ppx-flags": [],
+  "refmt": 3
+}

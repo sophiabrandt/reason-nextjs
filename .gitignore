@@ -1,0 +1,38 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next
+project/.next/
+project/out/
+
+# production
+/build/
+
+# misc
+.DS_Store
+.env*
+
+# debug
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ctags
+tags*
+
+# bsb
+/lib/bs/
+.bsb.lock
+.merlin
+
+#.graphql_ppx_cache
+.graphql_ppx_cache

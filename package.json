@@ -1,0 +1,25 @@
+{
+  "name": "reason-nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev:next": "next dev project",
+    "dev:reason": "bsb -clean-world -make-world -w",
+    "dev": "concurrently -k \"npm run dev:reason\" \"npm run dev:next\"",
+    "build:reason": "bsb -clean-world -make-world",
+    "start:next": "next start"
+  },
+  "dependencies": {
+    "next": "9.1.1",
+    "react": "16.10.2",
+    "react-dom": "16.10.2",
+    "reason-react": "0.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "babel-plugin-bucklescript": "^0.5.3",
+    "bs-platform": "5.1.0",
+    "concurrently": "^5.0.0",
+    "next-transpile-modules": "^2.3.1"
+  }
+}
