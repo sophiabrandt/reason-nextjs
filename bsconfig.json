@@ -16,9 +16,7 @@
   ],
   "suffix": ".js",
   "namespace": true,
-  "bs-dependencies": [
-    "reason-react"
-  ],
+  "bs-dependencies": ["reason-react", "bs-css"],
   "ppx-flags": [],
   "refmt": 3
 }

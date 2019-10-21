@@ -2,7 +2,7 @@
 
 > example project with ReasonML using ReasonReact, Next.js, Gatsby
 
-The repository explores [Eugene of Astuto's video tutorial](https://www.youtube.com/watch?v=ag4nUteMwkU).  
+The repository explores [Eugene of Astuto's video tutorial](https://www.youtube.com/watch?v=ag4nUteMwkU).
 
 ## Installation
 
@@ -19,20 +19,21 @@ For a better developer experience, add [reason-cli](https://github.com/reasonml/
 ```bash
 npm i -g reason-cli@latest-linux --unsafe-perm
 ```
+
 (Or `reason-cli@latest-macos`)
 
 2. Clone the repository
 
 ```bash
-git clone https://github.com/sophiabrandt/reason-next.git
+git clone https://github.com/sophiabrandt/reason-nextjs.git
 ```
 
-(Or `degit https://github.com/sophiabrandt/reason-next.git reason-next`)
+(Or `degit https://github.com/sophiabrandt/reason-nextjs.git reason-nextjs`)
 
 3. Install packages
 
 ```bash
-cd reason-next && npm install
+cd reason-nextjs && npm install
 ```
 
 ## Usage
@@ -40,6 +41,7 @@ cd reason-next && npm install
 ```bash
 npm run dev
 ```
+
 Go to `https://localhost:3000` to view the pages.
 
 ## License
@@ -55,4 +57,3 @@ Thanks to [Eugene of Astuto](https://github.com/eastuto/my-blog-01/) for creatin
 ## Contact
 
 Sophia Brandt - [@hisophiabrandt](https://twitter.com/hisophiabrandt)
-
