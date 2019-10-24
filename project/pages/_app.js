@@ -1,7 +1,7 @@
 import React from 'react'
 import App from 'next/app'
 
-const Page = require('../src/components/Page/Page').make
+const Page = require('../src/components/Page/Page.bs').make
 
 class BlogApp extends App {
   static async getInitialProps({ Component, ctx }) {

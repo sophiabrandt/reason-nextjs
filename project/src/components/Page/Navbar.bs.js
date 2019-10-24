@@ -3,7 +3,7 @@
 import * as Curry from "bs-platform/lib/es6/curry.js";
 import * as React from "react";
 import * as Link from "next/link";
-import * as NavbarStyles$ReasonNextjs from "./NavbarStyles.js";
+import * as NavbarStyles$ReasonNextjs from "./NavbarStyles.bs.js";
 
 function Navbar(Props) {
   var match = React.useReducer((function (state, action) {
