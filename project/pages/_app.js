@@ -1,5 +1,8 @@
 import React from 'react'
 import App from 'next/app'
+import { ApolloProvider } from '@apollo/react-common'
+
+import { withApollo } from '../utils/withApollo'
 
 const Page = require('../src/components/Page/Page.bs').make
 
@@ -14,14 +17,16 @@ class BlogApp extends App {
   }
 
   render() {
-    const { Component, pageProps } = this.props
+    const { Component, pageProps, apolloClient } = this.props
 
     return (
-      <Page>
-        <Component {...pageProps} />
-      </Page>
+      <ApolloProvider client={apolloClient}>
+        <Page>
+          <Component {...pageProps} />
+        </Page>
+      </ApolloProvider>
     )
   }
 }
 
-export default BlogApp
+export default withApollo(BlogApp)
