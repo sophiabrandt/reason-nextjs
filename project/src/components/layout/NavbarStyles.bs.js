@@ -48,7 +48,7 @@ var navbarBrand = Css.merge(/* :: */[
 
 var topnavStyles = Css.merge(/* :: */[
       Css.style(/* :: */[
-            Css.background(Css.rgb(0, 107, 198)),
+            Css.background(Css.rgb(118, 81, 129)),
             /* [] */0
           ]),
       /* :: */[
@@ -78,7 +78,7 @@ function navbarMenu(menuIsActive) {
 
 var navbarItem = Css.merge(/* :: */[
       Css.style(/* :: */[
-            Css.background(Css.rgb(0, 107, 198)),
+            Css.background(Css.rgb(118, 81, 129)),
             /* :: */[
               Css.color(Css.rgb(242, 242, 242)),
               /* :: */[

@@ -22,7 +22,7 @@ let navbarBrand =
   ]);
 
 let topnavStyles =
-  merge([style([background(rgb(0, 107, 198))]), "navbar", "main-title"]);
+  merge([style([background(rgb(118, 81, 129))]), "navbar", "main-title"]);
 
 let navbarMenu = (menuIsActive: bool) =>
   merge([
@@ -34,7 +34,7 @@ let navbarMenu = (menuIsActive: bool) =>
 let navbarItem =
   merge([
     style([
-      background(rgb(0, 107, 198)),
+      background(rgb(118, 81, 129)),
       color(rgb(242, 242, 242)),
       linkStyle,
       linkHover,

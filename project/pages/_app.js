@@ -4,7 +4,7 @@ import { ApolloProvider } from '@apollo/react-common'
 
 import { withApollo } from '../utils/withApollo'
 
-const Page = require('../src/components/Page/Page.bs').make
+const Page = require('../src/components/layout/Page.bs').make
 
 class BlogApp extends App {
   static async getInitialProps({ Component, ctx }) {
