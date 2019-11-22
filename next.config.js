@@ -9,7 +9,7 @@ module.exports = withPlugins(
     [
       withTM,
       {
-        transpileModules: ['bs-platform', 'bs-css'],
+        transpileModules: ['bs-platform', 'bs-css', 'reason-apollo-hooks'],
       },
     ],
   ],

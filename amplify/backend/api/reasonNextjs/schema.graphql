@@ -14,6 +14,6 @@ type Post @model {
   body: String!
   tags: [String!]!
   createdAt: AWSDateTime
-  updatedAT: AWSDateTime
+  updatedAt: AWSDateTime
   author: Author! @connection(name: "Posts")
 }

@@ -40,7 +40,7 @@
     "reason-react": "0.7.0"
   },
   "devDependencies": {
-    "@aws-amplify/cli": "^3.16.0",
+    "@aws-amplify/cli": "^3.17.0",
     "@babel/core": "^7.6.4",
     "babel-plugin-bucklescript": "^0.5.3",
     "bs-platform": "5.1.0",
