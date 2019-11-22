@@ -16,7 +16,7 @@ export const onCreateAuthor = `subscription OnCreateAuthor {
         body
         tags
         createdAt
-        updatedAT
+        updatedAt
       }
       nextToken
     }
@@ -38,7 +38,7 @@ export const onUpdateAuthor = `subscription OnUpdateAuthor {
         body
         tags
         createdAt
-        updatedAT
+        updatedAt
       }
       nextToken
     }
@@ -60,7 +60,7 @@ export const onDeleteAuthor = `subscription OnDeleteAuthor {
         body
         tags
         createdAt
-        updatedAT
+        updatedAt
       }
       nextToken
     }
@@ -74,7 +74,7 @@ export const onCreatePost = `subscription OnCreatePost {
     body
     tags
     createdAt
-    updatedAT
+    updatedAt
     author {
       id
       firstName
@@ -96,7 +96,7 @@ export const onUpdatePost = `subscription OnUpdatePost {
     body
     tags
     createdAt
-    updatedAT
+    updatedAt
     author {
       id
       firstName
@@ -118,7 +118,7 @@ export const onDeletePost = `subscription OnDeletePost {
     body
     tags
     createdAt
-    updatedAT
+    updatedAt
     author {
       id
       firstName

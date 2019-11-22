@@ -16,7 +16,7 @@ export const createAuthor = `mutation CreateAuthor($input: CreateAuthorInput!) {
         body
         tags
         createdAt
-        updatedAT
+        updatedAt
       }
       nextToken
     }
@@ -38,7 +38,7 @@ export const updateAuthor = `mutation UpdateAuthor($input: UpdateAuthorInput!) {
         body
         tags
         createdAt
-        updatedAT
+        updatedAt
       }
       nextToken
     }
@@ -60,7 +60,7 @@ export const deleteAuthor = `mutation DeleteAuthor($input: DeleteAuthorInput!) {
         body
         tags
         createdAt
-        updatedAT
+        updatedAt
       }
       nextToken
     }
@@ -74,7 +74,7 @@ export const createPost = `mutation CreatePost($input: CreatePostInput!) {
     body
     tags
     createdAt
-    updatedAT
+    updatedAt
     author {
       id
       firstName
@@ -96,7 +96,7 @@ export const updatePost = `mutation UpdatePost($input: UpdatePostInput!) {
     body
     tags
     createdAt
-    updatedAT
+    updatedAt
     author {
       id
       firstName
@@ -118,7 +118,7 @@ export const deletePost = `mutation DeletePost($input: DeletePostInput!) {
     body
     tags
     createdAt
-    updatedAT
+    updatedAt
     author {
       id
       firstName

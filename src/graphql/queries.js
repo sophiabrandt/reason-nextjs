@@ -16,7 +16,7 @@ export const getAuthor = `query GetAuthor($id: ID!) {
         body
         tags
         createdAt
-        updatedAT
+        updatedAt
       }
       nextToken
     }
@@ -51,7 +51,7 @@ export const getPost = `query GetPost($id: ID!) {
     body
     tags
     createdAt
-    updatedAT
+    updatedAt
     author {
       id
       firstName
@@ -78,7 +78,7 @@ export const listPosts = `query ListPosts(
       body
       tags
       createdAt
-      updatedAT
+      updatedAt
       author {
         id
         firstName
