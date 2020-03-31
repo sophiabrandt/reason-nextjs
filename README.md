@@ -6,7 +6,7 @@ The repository explores [Eugene of Astuto's video tutorial](https://www.youtube.
 
 ## Installation
 
-You'll need Node.js and npm.
+You'll need Node.js and npm/yarn.
 
 1. Install [BuckleScript](https://bucklescript.github.io/docs/en/installation) globally.
 
